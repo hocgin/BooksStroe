@@ -1,0 +1,8 @@
+<view class="classify-group">
+    <block wx:for="{{classifies}}" wx:key="{{item}}">
+        <navigator class="classify" url="{{item.url}}" open-type='{{item.openType||"navigate"}}'>
+            <image class="image" src="{{item.src}}" mode="aspectFill"></image>
+            <text class="title">{{item.title}}</text>
+        </navigator>
+    </block>
+</view>

@@ -1,0 +1,22 @@
+.attributes-group{
+  display: flex;
+  flex-direction: column;
+  .item{
+    display: flex;
+    flex-direction: row;
+    font-size: 9pt;
+    font-weight: 500;
+  }
+  .key{
+    flex: 1;
+    color: #7D7D7D;
+  }
+  .value {
+    flex: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

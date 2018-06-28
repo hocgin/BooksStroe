@@ -1,0 +1,54 @@
+<view class="container">
+    <!--图片-->
+    <view class="book">
+        <view class="details">
+            <image class="cover"
+                   src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+            <view class="info">
+                <text class="title">第一本书名</text>
+                <text class="attr">hocgin</text>
+                <text class="attr">前端</text>
+                <text class="attr">价格:<text>¥39</text></text>
+                <view class="tags">
+                    <text class="tag">前端</text>
+                    <text class="tag">小程序</text>
+                    <text class="tag">微信</text>
+                </view>
+            </view>
+        </view>
+        <view class="book-toolbar">
+            <view>加入收藏</view>
+            <view>分享好友</view>
+            <view>分享朋友圈</view>
+        </view>
+    </view>
+
+    <!--简介-->
+    <view class="content">
+        <text class="h1">简介</text>
+        <text class="p description">谷歌是一家位于美国的跨国科技企业，业务包括互联网搜索、云计算、广告技术等，同时开发并提供大量基于互联网的产品与服务，其主要利润来自于AdWords等广告服务。
+            1999年下半年，谷歌网站“Google”正式启用。 [3]
+            2010年3月23日，宣布关闭在中国大陆市场搜索服务。2015年8月10日，宣布对企业架构进行调整，并创办了一家名为Alphabet的“伞形公司”（Umbrella
+            Company），成为Alphabet旗下子公司。2015年，在2015年度“世界品牌500强”排行中重返榜首，苹果和亚马逊分别位居第二和第三名。2016年6月8日，《2016年BrandZ全球最具价值品牌百强榜》公布，以2291.98亿美元的品牌价值重新超越苹果成为百强第一。
+            [4] 2017年2月，Brand Finance发布2017年度全球500强品牌榜单，排名第一。 [5] 2017年6月，《2017年BrandZ最具价值全球品牌100强》公布，谷歌公司名列第一位。
+        </text>
+    </view>
+
+    <!--书籍属性-->
+    <view class="content">
+        <text class="h1">属性</text>
+        <attributes-group></attributes-group>
+    </view>
+
+    <!--评论-->
+
+    <!--底部-->
+
+    <view class="toolbar">
+        <view class="btn collect">收藏</view>
+        <view class="btn comment">评论</view>
+        <view class="btn obtain">
+            <button class="order">点击下单</button>
+        </view>
+    </view>
+</view>

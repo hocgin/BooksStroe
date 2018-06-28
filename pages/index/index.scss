@@ -1,0 +1,18 @@
+@charset "UTF-8";
+@import "../../assets/custom";
+@import '../../components/search/search';
+
+//noinspection CssInvalidPropertyValue
+.container{
+  box-sizing: border-box;
+  padding-left: $box-width;
+  padding-right: $box-width;
+  .search-bar {
+    margin-bottom: 30rpx;
+  }
+  .swiper {
+    box-shadow: 0 5rpx 5rpx 0 rgba(87, 129, 193, 0.16),
+                  0 5rpx 10rpx 0 rgba(76, 129, 198, 0.13);
+  }
+
+}

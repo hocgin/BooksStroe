@@ -1,0 +1,4 @@
+<view class="search-bar">
+    <icon class="icon" type="search" size="14"></icon>
+    <text class="tips">搜索感兴趣的内容</text>
+</view>

@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "book-span": "/components/book-span/book-span",
+    "classify-group": "/components/classify-group/classify-group"
+  }
+}

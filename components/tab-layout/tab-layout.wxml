@@ -1,0 +1,14 @@
+<view>
+    <scroll-view class="tab-group" scroll-x="true">
+        <view class="tab-item {{current==index?'active':''}}" data-index="{{index}}" bindtap="clickTab" wx:for="{{tabs}}" wx:key="{{item}}">{{item}}</view>
+    </scroll-view>
+    <swiper class="tab-content" current="{{current}}" duration="300"
+            bindchange="swiperTab"
+    style='height:{{height+"px"}}'>
+        <swiper-item  wx:for="{{tabs}}" wx:key="{{item}}">
+            <scroll-view scroll-y="true" class='tab-scroll-{{index}} tab-scroll' style='height:{{height+"px"}};'>
+                <slot name="tab-content-{{index}}"></slot>
+            </scroll-view>
+        </swiper-item>
+    </swiper>
+</view>

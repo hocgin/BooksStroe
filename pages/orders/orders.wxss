@@ -1,0 +1,7 @@
+.container {
+  padding-bottom: 20rpx;
+  background-color: #F6F6F6; }
+  .container .tab-scroll {
+    background-color: red; }
+
+/*# sourceMappingURL=orders.wxss.map */

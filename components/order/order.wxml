@@ -1,0 +1,21 @@
+<view class='order'>
+    <view class='source'>
+        <text class="name">@hocgin</text>
+        <text class="state">已取消</text>
+    </view>
+    <view class="detailed">
+        <image class="cover" src="https://hocg.in/Resume/img/avatar.png"></image>
+        <view class="description">
+            <text>第一本书第一本书第一本书第一本书第一本书</text>
+            <text>备注信息</text>
+        </view>
+    </view>
+    <view class="price-span">
+        共<text class="number">1</text>件商品 实付款: <text class="price">¥1009</text><text class="small">.00</text>
+    </view>
+    <view class="toolbar">
+        <view class="btn">查看发票</view>
+        <view class="btn">卖了换钱</view>
+        <view class="btn blue">再次购买</view>
+    </view>
+</view>

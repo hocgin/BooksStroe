@@ -1,0 +1,52 @@
+<!--index.wxml-->
+<view class="container">
+    <!--搜索-->
+    <include src="/components/search/search.wxml"/>
+
+    <!--轮播图-->
+    <swiper class="swiper"
+            indicator-dots="true"
+            autoplay="true"
+            duration="1000"
+            interval="5000">
+        <block wx:for="{{imgUrls}}" wx:key="{{item}}">
+            <swiper-item>
+                <image src="{{item}}"
+                       mode="widthFix"
+                       class="slide-image"/>
+            </swiper-item>
+        </block>
+    </swiper>
+
+    <!--列表-->
+    <text class="label">分类</text>
+    <classify-group src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></classify-group>
+
+    <text class="label">推荐书籍</text>
+    <book-span title="第一本书"
+               url="/pages/book-details/book-details?id=123456"
+               labels="{{['前端', '小程序', '微信']}}"></book-span>
+    <book-span title="第一本书"
+               labels="{{['前端', '小程序', '微信']}}"></book-span>
+    <book-span title="第一本书"
+               labels="{{['前端', '小程序', '微信']}}"></book-span>
+    <book-span title="第一本书"
+               labels="{{['前端', '小程序', '微信']}}"></book-span>
+    <book-span title="第一本书"
+               labels="{{['前端', '小程序', '微信']}}"></book-span>
+
+</view>
+
+<!--发布-->
+<view class="btn-publish z-0" bindtap="publish">
+    <text>+</text>
+</view>
+<view class='btn-publish z-1 {{published?"active":""}}'>
+    <text>推书</text>
+</view>
+<view class='btn-publish z-2 {{published?"active":""}}'>
+    <text>求书</text>
+</view>
+<navigator class='btn-publish z-3 {{published?"active":""}}' url="/pages/publish/publish">
+    <text>发布</text>
+</navigator>

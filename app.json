@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/logs/logs",
+    "pages/news/news",
+    "pages/publish/publish",
+    "pages/recommend/recommend",
+    "pages/book-details/book-details",
+    "pages/test/test",
+    "pages/orders/orders"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "书市",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor": "#4C81C6",
+    "color": "#84878A",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "书市"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "最新动态"
+      },
+      {
+        "pagePath": "pages/recommend/recommend",
+        "text": "推荐书单"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

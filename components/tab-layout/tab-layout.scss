@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import "../../assets/custom";
+$tab-height: 75rpx;
+
+//noinspection CssInvalidPropertyValue
+.tab-group {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2rpx solid #ccc;
+  justify-content: flex-start;
+  position: fixed;
+  background-color:#fff;
+  z-index:100;
+  top: 0;
+  left: 0;
+  .tab-item {
+    display: inline-block;
+    padding-right: 20rpx;
+    padding-left: 20rpx;
+    height: $tab-height;
+    line-height: $tab-height;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: 400;
+  }
+  .active{
+    color: $main-color;
+    border-bottom: 4rpx solid $main-color;
+  }
+}
+.tab-content {
+  margin-top: $tab-height;
+}

@@ -1,0 +1,85 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="user-info">
+        <image class="avatar" mode="scaleToFill"
+               src="https://hocg.in/Resume/img/avatar.png"></image>
+        <view class="detailed">
+            <text class="username">hocgin</text>
+            <text class="description">这家伙很懒，什么也没留下</text>
+        </view>
+    </view>
+
+    <view class="user-tab">
+        <view class="tab-item">
+            <text>99+</text>
+            <text class="title">收藏</text>
+        </view>
+        <view class="tab-item">
+            <text>12</text>
+            <text class="title">关注</text>
+        </view>
+        <view class="tab-item">
+            <text>0</text>
+            <text class="title">消息</text>
+        </view>
+    </view>
+
+    <!-- 订单 -->
+    <view>
+        <navigator class="item-head" url="/pages/orders/orders">
+            <text class="title">我的订单</text>
+            <text class="more">更多</text>
+        </navigator>
+    </view>
+    <view class="item-group">
+        <navigator class="item" url="/pages/orders/orders">
+            <view class="icon iconfont icon-daifukuan"></view>
+            <text class="title">待付款</text>
+        </navigator>
+        <navigator class="item" url="/pages/orders/orders">
+            <view class="icon iconfont icon-daifahuo"></view>
+            <text class="title">待发货</text>
+        </navigator>
+        <navigator class="item" url="/pages/orders/orders">
+            <view class="icon iconfont icon-daishouhuo"></view>
+            <text class="title">待收货</text>
+        </navigator>
+        <navigator class="item" url="/pages/orders/orders">
+            <view class="icon iconfont icon-31daipingjia"></view>
+            <text class="title">待评价</text>
+        </navigator>
+        <navigator class="item" url="/pages/orders/orders">
+            <view class="icon iconfont icon-tuikuantuihuo"></view>
+            <text class="title">售后</text>
+        </navigator>
+    </view>
+
+    <!-- 其他工具 -->
+    <view class="item-group menu-group">
+        <navigator class="item" url="/pages/publish/publish">
+            <view class="icon iconfont icon-tuikuantuihuo"></view>
+            <!--(书(电子书/全新/二手书/赠书/换书/卖书)/求书/书单)-->
+            <text class="title">发布</text>
+        </navigator>
+        <navigator class="item" url="/pages/book-details/book-details?id=123456">
+            <view class="icon iconfont icon-tuikuantuihuo"></view>
+            <text class="title">书详情</text>
+        </navigator>
+        <navigator class="item" url="/pages/test/test">
+            <view class="icon iconfont icon-tuikuantuihuo"></view>
+            <text class="title">测试页面</text>
+        </navigator>
+        <view class="item">
+            <view class="icon iconfont icon-tuikuantuihuo"></view>
+            <text class="title">功能4</text>
+        </view>
+        <view class="item">
+            <view class="icon iconfont icon-tuikuantuihuo"></view>
+            <text class="title">功能5</text>
+        </view>
+        <view class="item">
+            <view class="icon iconfont icon-tuikuantuihuo"></view>
+            <text class="title">功能6</text>
+        </view>
+    </view>
+</view>

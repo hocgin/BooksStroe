@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@import "../../assets/custom";
+.container {
+  padding-bottom: 20rpx;
+  background-color: $bg-color;
+  .tab-layout {
+
+  }
+  .tab-scroll {
+    background-color: red;
+  }
+}

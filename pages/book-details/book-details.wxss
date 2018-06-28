@@ -1,0 +1,110 @@
+page {
+  background-color: #F6F6F6; }
+
+.container {
+  margin-bottom: 100rpx; }
+  .container .book {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+    .container .book .details {
+      height: 300rpx;
+      display: flex;
+      flex-direction: row; }
+      .container .book .details .cover {
+        height: 270rpx;
+        width: 200rpx;
+        margin-left: 20rpx;
+        margin-right: 20rpx;
+        box-shadow: 0 5rpx 5rpx 0 rgba(87, 129, 193, 0.16), 0 5rpx 10rpx 0 rgba(76, 129, 198, 0.13); }
+      .container .book .details .info {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between; }
+        .container .book .details .info .attr {
+          font-size: 9pt;
+          color: #8B8B8B;
+          margin-bottom: 15rpx; }
+        .container .book .details .info .title {
+          font-size: 12pt;
+          color: #000;
+          font-weight: 500; }
+        .container .book .details .info .tags {
+          font-size: 8pt;
+          margin-bottom: 10rpx; }
+          .container .book .details .info .tags .tag {
+            color: #8B8B8B;
+            margin-right: 10rpx;
+            border: solid 1px #8B8B8B;
+            border-radius: 8rpx;
+            padding-left: 5rpx;
+            padding-right: 5rpx; }
+            .container .book .details .info .tags .tag:before {
+              content: '#'; }
+    .container .book .book-toolbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      align-content: center; }
+      .container .book .book-toolbar view {
+        flex: 1;
+        text-align: center;
+        border-radius: 8rpx;
+        padding-bottom: 10rpx;
+        padding-top: 10rpx;
+        margin-left: 30rpx;
+        margin-right: 30rpx;
+        background-color: #F6F6F6;
+        color: #8B8B8B;
+        font-size: 9pt;
+        font-weight: 400; }
+  .container .content {
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-bottom: 10rpx;
+    margin-bottom: 10rpx;
+    padding-left: 20rpx;
+    padding-right: 20rpx; }
+    .container .content .description {
+      text-align: justify;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 6;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+
+.toolbar {
+  height: 100rpx;
+  line-height: 100rpx;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #000;
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  box-shadow: 0 -5rpx 5rpx 0 rgba(0, 0, 0, 0.01), 0 -5rpx 10rpx 0 rgba(0, 0, 0, 0.01); }
+  .toolbar .collect, .toolbar .comment {
+    flex: 1;
+    font-size: 9pt;
+    color: #8B8B8B; }
+  .toolbar .obtain {
+    flex: 8; }
+  .toolbar .order {
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 9pt;
+    margin-left: 40rpx;
+    margin-right: 40rpx;
+    background-color: #4C81C6;
+    color: #fff;
+    font-weight: 300;
+    box-shadow: 0 5rpx 5rpx 0 rgba(87, 129, 193, 0.16), 0 5rpx 10rpx 0 rgba(76, 129, 198, 0.13); }
+
+/*# sourceMappingURL=book-details.wxss.map */

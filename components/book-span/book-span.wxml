@@ -1,0 +1,17 @@
+<navigator class="book-span" url="{{url}}">
+    <image class="cover" mode="aspectFill"
+           src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+    <view class="book-info">
+        <text class="title">{{title}}</text>
+        <text class="description">这是一段Vue官方教程的简介，最多支持两行显示这是一段Vue官方教程的简介，最多支持两行显示支持两行显示</text>
+        <view class="tags">
+            <block wx:for="{{labels}}" wx:key="{{item}}">
+                <text class="tag">{{item}}</text>
+            </block>
+        </view>
+        <view class="status-group">
+            <text class="item">@hocgin</text>
+            <text class="item">前端 • 2个月前 • 热度 173</text>
+        </view>
+    </view>
+</navigator>

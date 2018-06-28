@@ -1,0 +1,51 @@
+.book-span {
+  height: 230rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx; }
+  .book-span image.cover {
+    height: 230rpx;
+    width: 400rpx;
+    box-shadow: 0 5rpx 5rpx 0 rgba(87, 129, 193, 0.16), 0 5rpx 10rpx 0 rgba(76, 129, 198, 0.13); }
+  .book-span .book-info {
+    box-sizing: border-box;
+    margin-left: 20rpx; }
+    .book-span .book-info .title {
+      font-weight: bold;
+      font-size: 11pt;
+      display: block; }
+    .book-span .book-info .description {
+      margin-top: 10rpx;
+      margin-bottom: 10rpx;
+      font-size: 9pt;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: #A6A6A6; }
+  .book-span .tags {
+    font-size: 8pt;
+    margin-bottom: 10rpx; }
+    .book-span .tags .tag {
+      color: #A6A6A6;
+      margin-right: 10rpx;
+      border: solid 1px #A6A6A6;
+      border-radius: 8rpx;
+      padding-left: 5rpx;
+      padding-right: 5rpx; }
+      .book-span .tags .tag:before {
+        content: '#'; }
+  .book-span .status-group {
+    color: #A6A6A6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    .book-span .status-group .item {
+      font-size: 9pt; }
+
+/*# sourceMappingURL=book-span.wxss.map */

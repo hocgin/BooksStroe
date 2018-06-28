@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import "../../assets/custom";
+
+page{
+  background-color: #F6F6F6;
+}
+
+/**
+ * 用户信息
+ */
+//noinspection CssInvalidPropertyValue
+.user-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: $main-color;
+  color: #fff;
+  .avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin-left: $box-width;
+    margin-right: $box-width;
+    border-radius: 50%;
+    border: solid 4rpx #fff;
+  }
+
+  .detailed {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    .username {
+      font-size: 13pt;
+      display: block;
+      font-weight: 500;
+    }
+    .description{
+      font-size: 8pt;
+      font-weight: inherit;
+    }
+  }
+
+}
+
+/**
+ * 用户收藏/关注/消息
+ */
+//noinspection CssInvalidPropertyValue
+.user-tab {
+  width: 100%;
+  display: flex;
+  background-color: $main-color;
+  color: #fff;
+  padding: 5rpx 0 5rpx;
+  box-shadow: 0 5rpx 5rpx 0 rgba(87, 129, 193, 0.16),
+              0 5rpx 10rpx 0 rgba(76, 129, 198, 0.13);
+  .tab-item {
+    flex: 1;
+    font-size: 11pt;
+    display: flex;
+    height: 100rpx;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .title {
+      font-size: 8pt;
+      font-weight: inherit;
+    }
+  }
+}
+/**
+ * 我的订单
+ **/
+//noinspection CssInvalidPropertyValue
+.item-head{
+  z-index: -1;
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  box-sizing: border-box;
+  padding-left: $box-width;
+  padding-right: $box-width;
+  border-bottom: solid 1px rgba(213, 213, 213, 0.31);
+  .title {
+    color: #000;
+    font-size: 10pt;
+  }
+  .more {
+    color:#7F8389;
+    font-size: 8pt;
+    font-weight: inherit;
+    vertical-align: center;
+  }
+}
+
+/**
+ * 订单状态
+ **/
+//noinspection CssInvalidPropertyValue
+.item-group {
+  background-color: #fff;
+  padding-top: 20rpx;
+  padding-bottom: 10rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-bottom: solid 1px rgba(213, 213, 213, 0.51);
+  .item {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    .icon {
+      color:#7F8389;
+      font-size: 60rpx;
+    }
+    .title {
+      font-size: 8pt;
+      font-weight: inherit;
+    }
+  }
+}
+
+/**
+ * 其他
+ **/
+//noinspection CssInvalidPropertyValue
+.menu-group {
+  margin-top: 20rpx;
+  box-sizing: border-box;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  //align-items: flex-start;
+  //align-content: flex-start;
+  .item {
+    width: $screen-width/5;
+    flex: none;
+  }
+}

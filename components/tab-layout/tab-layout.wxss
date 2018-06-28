@@ -1,0 +1,27 @@
+.tab-group {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2rpx solid #ccc;
+  justify-content: flex-start;
+  position: fixed;
+  background-color: #fff;
+  z-index: 100;
+  top: 0;
+  left: 0; }
+  .tab-group .tab-item {
+    display: inline-block;
+    padding-right: 20rpx;
+    padding-left: 20rpx;
+    height: 75rpx;
+    line-height: 75rpx;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: 400; }
+  .tab-group .active {
+    color: #4C81C6;
+    border-bottom: 4rpx solid #4C81C6; }
+
+.tab-content {
+  margin-top: 75rpx; }
+
+/*# sourceMappingURL=tab-layout.wxss.map */

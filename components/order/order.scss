@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import "../../assets/custom";
+//noinspection CssInvalidPropertyValue
+  .order {
+    background-color: #fff;
+    display: flex;
+    margin-top: 15rpx;
+    flex-direction: column;
+    .source{
+      padding-left: 20rpx;
+      padding-right: 20rpx;
+      padding-bottom: 10rpx;
+      padding-top: 10rpx;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .name {
+        font-size: 11pt;
+        font-weight: 500;
+        color: #000;
+      }
+      .state {
+        font-size: 10pt;
+        font-weight: 400;
+      }
+    }
+    .detailed {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: #FAFAFA;
+      padding-top: 20rpx;
+      padding-bottom: 20rpx;
+      padding-left: 20rpx;
+      .cover {
+        height: 150rpx;
+        width: 150rpx;
+        margin-right: 20rpx;
+      }
+      .description {
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+        font-size: 10pt;
+      }
+    }
+    .price-span{
+      padding-bottom: 10rpx;
+      padding-top: 10rpx;
+      text-align: right;
+      padding-right: 20rpx;
+      font-size: 10pt;
+      border-bottom: solid 1rpx $bg-color;
+      .number {
+        margin-left: 5rpx;
+        margin-right: 5rpx;
+      }
+      .price {
+        font-size: 12pt;
+        font-weight: 700;
+      }
+      .small {
+        font-size: 9pt;
+        font-weight: 700;
+      }
+    }
+    .toolbar {
+      display: flex;
+      flex-direction: row;
+      padding-top: 20rpx;
+      padding-bottom: 20rpx;
+      justify-content: flex-end;
+      padding-right: 20rpx;
+      .btn {
+        margin-right: 5rpx;
+        margin-left: 5rpx;
+        padding-top: 5rpx;
+        padding-bottom: 5rpx;
+        padding-left: 15rpx;
+        padding-right: 15rpx;
+        border-radius: 25rpx;
+        font-size: 9pt;
+        font-weight: 400;
+        color: $instructions-color;
+        border: solid 1rpx #F6F6F6;
+        &.blue {
+          color: $main-color;
+          border: solid 1rpx $main-color;
+        }
+      }
+    }
+  }

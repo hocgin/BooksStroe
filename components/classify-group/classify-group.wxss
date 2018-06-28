@@ -1,0 +1,27 @@
+.classify-group {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap; }
+  .classify-group .classify {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex; }
+    .classify-group .classify .image {
+      height: 110rpx;
+      width: 110rpx;
+      color: #7F8389; }
+    .classify-group .classify .title {
+      padding-bottom: 10rpx;
+      padding-top: 20rpx;
+      font-size: 8pt;
+      color: #8B8B8B;
+      font-weight: 400; }
+
+/*# sourceMappingURL=classify-group.wxss.map */

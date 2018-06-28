@@ -1,0 +1,13 @@
+<view class='container'>
+    <tab-layout>
+        <view slot="tab-content-0" class="content">
+            <order></order>
+            <order></order>
+            <order></order>
+        </view>
+        <view slot="tab-content-1">1</view>
+        <view slot="tab-content-2">2</view>
+        <view slot="tab-content-3">3</view>
+        <view slot="tab-content-4">4</view>
+    </tab-layout>
+</view>

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,UAAW;EACT,cAAc,EAAE,KAAK;EACrB,gBAAgB,ECUP,OAAO;EDNhB,sBAAY;IACV,gBAAgB,EAAE,GAAG",
+"sources": ["orders.scss","../../assets/_custom.scss"],
+"names": [],
+"file": "orders.wxss"
+}
